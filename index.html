@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Photography</h1>
+  <p>A website created by Esme Jaramillo.</p>
+</div>
+
+<div class="navbar">
+<a href="https://www.pinterest.com/" target="_blank" rel="external" hreflang="en" type="text/html">
+    Link
+</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+  <div class="side">
+      <h2>Weddings</h2>
+      <h5>Black and White (Classics)</h5>
+<img src="https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=6ff92caffcdd63681a35134a6770ed3b&amp;auto=format&amp;fit=crop&amp;w=751&amp;q=80" alt="description" height="400 width=" />
+      <p>Taken April 18,2009</p>
+      <h3>Color</h3>
+      <p>Taken June 23, 2015</p>
+     <img src="https://images.unsplash.com/photo-1519123648360-eeb65861dc66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=979a5f694e6046ac2cabdf2416573f41&auto=format&fit=crop&w=752&q=80"alt="description" height="400 width=" />
+  </div>
+  <div class="main">
+      <h2>Celebrations/Partys</h2>
+      <h5> Dec 7, 2017</h5>
+<img src="https://images.unsplash.com/photo-1516139734042-bf088f2c71d6?ixlib=rb-0.3.5&s=27d09d3c6ce34ce095c20adc14000c8a&auto=format&fit=crop&w=889&q=80" height="400 width=" />
+      <p>Photography</p>
+      <p> "Photography is the only language that can be understood anywhere in the world" - Bruce Barbay</p>
+      <br>
+<p> "The Earth is Art, The Photographer is only a Witness"- Unknown</p>
+      <br>
+      <h2>Street Photography</h2>
+      <h5>Sep 2, 2017</h5>
+      <img src="https://images.unsplash.com/photo-1485182483021-f81778f36e0f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0cdf451ebfa0765921a86852c6ffd48&auto=format&fit=crop&w=750&q=80" height="400 width="/>
+       <img src="https://images.unsplash.com/photo-1507215210622-539686c4bfaa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=234085115d4f3f1c821054b1cc4b3f93&auto=format&fit=crop&w=750&q=80" height="400 width="/>
+      <p>Fun Facts</p>
+      <p>Every two minutes we snap more pictures than the whole of humanity did in the 1800s.</p>
+<br>
+<p>Cameras that captured the Moon’s surface for the first time were left there because of their weight.</p>
+<br>
+<p>People never smiled on the old photos because they had to stay still for hours.</p>
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
